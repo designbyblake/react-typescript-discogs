@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier"
+  ],
+  "plugins": [
+    "stylelint-scss",
+    "stylelint-order"
+  ],
+  "rules": {
+    "property-no-vendor-prefix": null,
+    "at-rule-no-unknown": null,
+    "max-empty-lines": 4,
+    "color-hex-length": "long",
+    "declaration-colon-newline-after": null,
+    "font-family-name-quotes": null,
+    "max-nesting-depth": 4,
+    "order/properties-alphabetical-order": true,
+    "scss/at-mixin-pattern": null,
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number"
+  },
+  "ignoreFiles": [
+    "src/stories/**/*.css"
+  ]
+}

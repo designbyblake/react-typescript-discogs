@@ -1,0 +1,114 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "react-app",
+    "airbnb",
+    "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "plugin:storybook/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)"],
+      "rules": {
+        "prettier/prettier": ["error", {
+            "endOfLine": "lf"
+          }
+        ],
+        "no-restricted-imports": [
+          "error",
+          {
+            "paths": [
+              {
+                "name": "react",
+                "importNames": ["default"],
+                "message": "Default import is unnecessary anymore due to \"jsx\": \"react-jsx\" option for tsc"
+              }
+            ]
+          }
+        ],
+        "implicit-arrow-linebreak": "off",
+        "comma-dangle": ["error", "never"],
+        "no-use-before-define": "off",
+        "max-len": ["warn", { "code": 180 }],
+        "jsx-quotes": ["error", "prefer-single"],
+        "jsx-a11y/label-has-associated-control": [
+          "error",
+          {
+            "required": {
+              "some": ["nesting", "id"]
+            }
+          }
+        ],
+
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-use-before-define": ["error"],
+        "@typescript-eslint/ban-ts-comment": [
+          "error",
+          {
+            "ts-ignore": "allow-with-description"
+          }
+        ],
+
+        "react/function-component-definition": [
+          "warn",
+          {
+            "namedComponents": ["function-declaration", "arrow-function"]
+          }
+        ],
+        "react/no-array-index-key": ["warn"],
+        "react/button-has-type": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/no-unstable-nested-components": [
+          "warn",
+          { "allowAsProps": true }
+        ],
+        "react/prop-types": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/require-default-props": "off",
+        "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+
+        "import/no-extraneous-dependencies": "off",
+        "import/prefer-default-export": "off"
+      }
+    },
+
+    {
+      "files": ["**/*.stories.*"],
+      "rules": {
+        "max-len": "off",
+
+        "react/jsx-props-no-spreading": "off",
+        "react/no-unescaped-entities": "off",
+
+        "import/no-anonymous-default-export": "off",
+        "import/no-extraneous-dependencies": "off"
+      }
+    },
+
+    {
+      "files": ["**/*.test.ts?(x)"],
+      "rules": {
+        "react/jsx-no-constructed-context-values": "off"
+      }
+    }
+  ]
+}
