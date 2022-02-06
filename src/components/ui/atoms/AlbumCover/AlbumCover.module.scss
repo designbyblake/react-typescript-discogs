@@ -1,0 +1,31 @@
+.album-cover {
+  background: url('../../../../assets/images/loader.gif') no-repeat 50% 50%;
+  background-size: 75%;
+  margin: 0;
+  max-height: 377px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  span {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    height: 100%;
+    max-width: 200%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 0.3s, height 0.15s !important;
+    width: 100%;
+  }
+}

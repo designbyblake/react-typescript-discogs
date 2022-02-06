@@ -1,0 +1,36 @@
+@import '~assets/styles/imports';
+
+.button {
+  background-color: var(--button-bg);
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  height: 48px;
+  padding: 0 10px;
+  position: relative;
+  transition: background-color 0.25s ease;
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &:hover:not(.btn-grid-list--active) {
+    background: var(--button-hover);
+  }
+
+  svg {
+    fill: #ffffff;
+    filter: drop-shadow(var(--box-shadow));
+    height: 21px;
+    left: 50%;
+    position: absolute;
+    stroke: #ffffff;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: inherit;
+    width: 24px;
+  }
+}

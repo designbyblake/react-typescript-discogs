@@ -1,0 +1,31 @@
+// Breakpoints
+$mq-small: 375;
+$mq-tablet: 768;
+$mq-medium: 812;
+$mq-large: 1024;
+$mq-xlarge: 1366;
+$mq-xxlarge: 1920;
+
+// Min-widths
+$small-up: '(min-width: #{$mq-small}px)'; // (min-width: 375px);
+$tablet-up: '(min-width: #{$mq-tablet}px)'; // (min-width: 768px);
+$post-tablet: '(min-width: #{$mq-large + 1}px)'; // (min-width: 769px);
+$medium-up: '(min-width: #{$mq-medium}px)'; // (min-width: 812px);
+$large-up: '(min-width: #{$mq-large}px)'; // (min-width: 1024px);
+$post-large-up: '(min-width: #{$mq-large + 1}px)'; // (min-width: 1025px);
+$xlarge-up: '(min-width: #{$mq-xlarge}px)'; // (min-width:1366px);
+$xxlarge-up: '(min-width: #{$mq-xxlarge}px)'; // (min-width:1920px);
+
+// Max-widths
+$small-down: '(max-width: #{$mq-tablet - 1}px)'; // (max-width: 767px);
+$tablet-down: '(max-width: #{$mq-medium - 1}px)'; // (max-width: 811px);
+$medium-down: '(max-width: #{$mq-large - 1}px)'; // (max-width: 1023px);
+$large-down: '(max-width: #{$mq-xlarge - 1}px)'; // (max-width: 1365px);
+$xlarge-down: '(max-width: #{$mq-xxlarge - 1}px)'; // (max-width: 1919px);
+
+// Used to target specific breakpoints only
+$small-only: '(min-width: #{$mq-small}px)  and (max-width: #{$mq-tablet - 1}px)'; // (min-width: 375px)  and (max-width: 767px)
+$tablet-only: '(min-width: #{$mq-tablet}px) and (max-width: #{$mq-medium - 1}px)'; // (min-width: 768px)  and (max-width: 811px)
+$medium-only: '(min-width: #{$mq-medium}px) and (max-width: #{$mq-large - 1}px)'; // (min-width: 812px)  and (max-width: 1024px)
+$large-only: '(min-width: #{$mq-large}px)  and (max-width: #{$mq-xlarge - 1}px)'; // (min-width: 1024px)  and (max-width: 1365px)
+$xlarge-only: '(min-width: #{$mq-xlarge}px)  and (max-width: #{$mq-xxlarge - 1}px)'; // (min-width:1366px) and (max-width: 1919px);

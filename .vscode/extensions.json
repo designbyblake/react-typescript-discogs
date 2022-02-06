@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "clinyong.vscode-css-modules",
+    "stylelint.vscode-stylelint",
+    "mrmlnc.vscode-scss",
+    "eg2.vscode-npm-script",
+    "naumovs.color-highlight",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "graphql.vscode-graphql"
+  ]
+}

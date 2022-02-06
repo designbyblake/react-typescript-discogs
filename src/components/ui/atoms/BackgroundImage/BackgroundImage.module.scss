@@ -1,0 +1,26 @@
+.bg,
+.bg-overlay,
+.bg-image {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.bg {
+  z-index: -1;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 2;
+}
+
+.bg-image {
+  background-color: var(--background-color);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug App [Chrome]",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src",
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${webRoot}/*"
+      }
+    },
+    {
+      "name": "Debug Storybook [Chrome]",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:6006",
+      "webRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "webpack:///*": "${webRoot}/*",
+        "webpack:///./*": "${webRoot}/*",
+        "webpack:///src/*": "${webRoot}/*",
+        "webpack:///./~/*": "${webRoot}/node_modules/*"
+      }
+    },
+    {
+      "name": "Debug Unit Tests",
+      "type": "pwa-node",
+      "request": "launch",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/react-scripts",
+      "args": ["test", "--runInBand", "--no-cache", "--watchAll=false"],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": { "CI": "true" },
+      "disableOptimisticBPs": true
+    }
+  ]
+}
