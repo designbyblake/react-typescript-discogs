@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { AlbumCover } from './AlbumCover';
 
 export default {
-  title: 'Atoms / AlbumCover',
+  title: 'AlbumCover',
   component: AlbumCover
 } as ComponentMeta<typeof AlbumCover>;
 

@@ -1,5 +1,5 @@
 import styles from './BackgroundImage.module.scss';
-import background from '../../../../assets/images/background-1.jpeg';
+import background from '../../assets/images/background-1.jpeg';
 
 export const BackgroundImage = ({ bgImage }: BackgroundImageProps) => {
   return (

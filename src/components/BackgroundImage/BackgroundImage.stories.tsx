@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { BackgroundImage } from './BackgroundImage';
 
 export default {
-  title: 'Atoms / BackgroundImage',
+  title: 'BackgroundImage',
   component: BackgroundImage
 } as ComponentMeta<typeof BackgroundImage>;
 

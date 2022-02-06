@@ -1,0 +1,25 @@
+.button {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: left;
+  transition: all 0.25s ease;
+  width: 100%;
+
+  &:hover,
+  &:focus {
+    background: var(--color-upsdell-red);
+    color: var(--color-white);
+  }
+
+  &[data-is-current='true'] {
+    background-color: var(--color-dark-sienna);
+    color: var(--color-white);
+    font-weight: bold;
+  }
+}

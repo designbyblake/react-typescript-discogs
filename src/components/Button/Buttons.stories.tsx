@@ -2,7 +2,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Button } from './Button';
 
 export default {
-  title: 'Atoms / Button',
+  title: 'Button',
   component: Button,
   argTypes: {
     type: {
