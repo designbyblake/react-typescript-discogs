@@ -1,13 +1,22 @@
-import { YouTubeButton } from 'components/YouTubeButton';
+import { Button } from 'components/Button';
 import styles from './YouTubeList.module.scss';
 
-export const YouTubeList = ({ videos, currentVideo }: YouTubeListProps) => (
+export const YouTubeList = ({
+  videos,
+  currentVideo,
+  setCurrentVideo
+}: YouTubeListProps) => (
   <ul className={styles['video-list']}>
     {videos.map((video, index) => (
       <li key={`album-video-${index}`}>
-        <YouTubeButton onClick={() => currentVideo(index)}>
+        <Button
+          data-style='youtube'
+          data-is-current={currentVideo === index}
+          aria-pressed={currentVideo === index}
+          onClick={() => setCurrentVideo(index)}
+        >
           {video.title}
-        </YouTubeButton>
+        </Button>
       </li>
     ))}
   </ul>
@@ -20,5 +29,6 @@ export type YouTubeVideoListProps = {
 
 export type YouTubeListProps = {
   videos: YouTubeVideoListProps[];
-  currentVideo: (number: number) => void;
+  currentVideo: number;
+  setCurrentVideo: (number: number) => void;
 };

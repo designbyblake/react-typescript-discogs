@@ -1,13 +1,11 @@
 import { useState, useEffect, AriaAttributes } from 'react';
-//import cn from 'classnames';
-//import styles from './YouTube.module.scss';
-import {
-  YouTubeList,
-  YouTubeListProps,
-  YouTubeVideoListProps
-} from 'components/YouTubeList';
+// import cn from 'classnames';
+// import styles from './YouTube.module.scss';
+
+import { YouTubeList, YouTubeVideoListProps } from 'components/YouTubeList';
 import { YouTubePlayer } from 'components/YouTubePlayer';
 import { Heading } from 'components/Heading';
+
 export const YouTube = ({ artist, id, videos }: YouTubeProps) => {
   const [currentVideo, setCurrentVideo] = useState(0);
   const [videosArray, setVideosArray] = useState<YouTubeVideoListProps[]>([]);
@@ -37,7 +35,11 @@ export const YouTube = ({ artist, id, videos }: YouTubeProps) => {
         key={`${id}-video-${currentVideo}`}
       />
 
-      <YouTubeList videos={videosArray} currentVideo={setCurrentVideo} />
+      <YouTubeList
+        videos={videosArray}
+        currentVideo={currentVideo}
+        setCurrentVideo={setCurrentVideo}
+      />
     </>
   );
 };

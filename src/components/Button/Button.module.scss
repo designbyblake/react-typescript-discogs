@@ -1,36 +1,64 @@
 @import '~assets/styles/imports';
 
 .button {
-  background-color: var(--button-bg);
-  border: 2px solid #ffffff;
-  border-radius: 4px;
-  box-shadow: var(--box-shadow);
-  color: #ffffff;
-  cursor: pointer;
-  font-weight: bold;
-  height: 48px;
-  padding: 0 10px;
-  position: relative;
-  transition: background-color 0.25s ease;
+  &[data-style='button'] {
+    background-color: var(--button-bg);
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: var(--box-shadow);
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    height: 48px;
+    padding: 0 10px;
+    position: relative;
+    transition: background-color 0.25s ease;
 
-  &:disabled {
-    cursor: default;
+    &:disabled {
+      cursor: default;
+    }
+
+    &:hover:not(.btn-grid-list--active) {
+      background: var(--button-hover);
+    }
+
+    svg {
+      fill: #ffffff;
+      filter: drop-shadow(var(--box-shadow));
+      height: 21px;
+      left: 50%;
+      position: absolute;
+      stroke: #ffffff;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      transition: inherit;
+      width: 24px;
+    }
   }
 
-  &:hover:not(.btn-grid-list--active) {
-    background: var(--button-hover);
-  }
+  &[data-style='youtube'] {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: left;
+    transition: all 0.25s ease;
+    width: 100%;
 
-  svg {
-    fill: #ffffff;
-    filter: drop-shadow(var(--box-shadow));
-    height: 21px;
-    left: 50%;
-    position: absolute;
-    stroke: #ffffff;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: inherit;
-    width: 24px;
+    &:hover,
+    &:focus {
+      background: var(--color-upsdell-red);
+      color: var(--color-white);
+    }
+
+    &[data-is-current='true'] {
+      background-color: var(--color-dark-sienna);
+      color: var(--color-white);
+      font-weight: bold;
+    }
   }
 }
