@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+$col: 27; // 27*24
+$gutter: 24 !default; // 24*23
+// Contain ($col*24) + ($gutter * 23) = 1200;
+@function perc($cols, $gutters: true, $width: 1200) {
+  @if $gutters == true {
+    @return (((($cols * $col) + ($cols * $gutter)) / $width) * 100%);
+  } @else {
+    @return (((($cols * $col) + (($cols - 1) * $gutter)) / $width) * 100%);
+  }
+}
+
+@function gutter($width: 1200) {
+  @return ($gutter / $width) * 100%;
+}

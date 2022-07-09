@@ -18,5 +18,5 @@ export const Default = Template.bind({});
 Default.args = {
   children: 'Button',
   className: '',
-  btnStyle: 'button'
+  variant: 'button'
 };

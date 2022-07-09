@@ -1,0 +1,29 @@
+@import '~assets/styles/imports';
+
+.root {
+  align-items: center;
+  display: flex;
+
+  a {
+    color: #000000;
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: all 0.25s ease 0s;
+
+    &[aria-current='page'] {
+      color: var(--red);
+      font-weight: bold;
+    }
+
+    &:hover {
+      color: var(--red);
+      text-decoration: underline;
+    }
+  }
+}
+
+.vinyl {
+  display: inline-block;
+  width: 50px;
+}

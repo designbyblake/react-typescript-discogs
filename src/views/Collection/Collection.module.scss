@@ -1,0 +1,12 @@
+@import '~assets/styles/imports';
+
+.root {
+  [data-element='collection'] {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}

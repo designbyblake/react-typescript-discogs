@@ -1,0 +1,2539 @@
+[
+  {
+    "id": 3601129,
+    "instance_id": 681789181,
+    "date_added": "2021-04-21T16:56:44-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3601129,
+      "master_id": 28152,
+      "master_url": "https://api.discogs.com/masters/28152",
+      "resource_url": "https://api.discogs.com/releases/3601129",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Music",
+      "year": 2012,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180 gram",
+          "descriptions": ["LP", "Album", "Limited Edition", "Numbered"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Legacy",
+          "catno": "88691951441",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 15491,
+          "resource_url": "https://api.discogs.com/labels/15491"
+        },
+        {
+          "name": "Volcano (2)",
+          "catno": "88691951441",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 25809,
+          "resource_url": "https://api.discogs.com/labels/25809"
+        }
+      ],
+      "artists": [
+        {
+          "name": "311",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 26921,
+          "resource_url": "https://api.discogs.com/artists/26921"
+        }
+      ],
+      "genres": ["Hip Hop", "Rock", "Reggae", "Funk / Soul"],
+      "styles": ["Reggae", "Alternative Rock", "Conscious", "Dub"]
+    }
+  },
+  {
+    "id": 3429382,
+    "instance_id": 381364813,
+    "date_added": "2019-06-12T00:26:54-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3429382,
+      "master_id": 45947,
+      "master_url": "https://api.discogs.com/masters/45947",
+      "resource_url": "https://api.discogs.com/releases/3429382",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Midnight Marauders",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album", "Reissue", "Repress"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Jive",
+          "catno": "01241-41490-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2186,
+          "resource_url": "https://api.discogs.com/labels/2186"
+        }
+      ],
+      "artists": [
+        {
+          "name": "A Tribe Called Quest",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 3268,
+          "resource_url": "https://api.discogs.com/artists/3268"
+        }
+      ],
+      "genres": ["Hip Hop"],
+      "styles": []
+    }
+  },
+  {
+    "id": 7926540,
+    "instance_id": 172336499,
+    "date_added": "2016-05-16T00:44:14-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 7926540,
+      "master_id": 45907,
+      "master_url": "https://api.discogs.com/masters/45907",
+      "resource_url": "https://api.discogs.com/releases/7926540",
+      "thumb": "",
+      "cover_image": "",
+      "title": "People's Instinctive Travels And The Paths Of Rhythm",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "25th Anniversary, Gatefold, 180 gram",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Jive",
+          "catno": "88875172371",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2186,
+          "resource_url": "https://api.discogs.com/labels/2186"
+        },
+        {
+          "name": "Legacy",
+          "catno": "88875172371",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 15491,
+          "resource_url": "https://api.discogs.com/labels/15491"
+        },
+        {
+          "name": "Sony Music",
+          "catno": "88875172371",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 25487,
+          "resource_url": "https://api.discogs.com/labels/25487"
+        }
+      ],
+      "artists": [
+        {
+          "name": "A Tribe Called Quest",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 3268,
+          "resource_url": "https://api.discogs.com/artists/3268"
+        }
+      ],
+      "genres": ["Hip Hop"],
+      "styles": ["Conscious", "Boom Bap", "Jazzy Hip-Hop"]
+    }
+  },
+  {
+    "id": 3685924,
+    "instance_id": 171873895,
+    "date_added": "2016-05-12T21:05:06-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3685924,
+      "master_id": 717611,
+      "master_url": "https://api.discogs.com/masters/717611",
+      "resource_url": "https://api.discogs.com/releases/3685924",
+      "thumb": "",
+      "cover_image": "",
+      "title": "The Giant Crushes You",
+      "year": 2010,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Joyful Noise Recordings",
+          "catno": "JNR42",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 119541,
+          "resource_url": "https://api.discogs.com/labels/119541"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Abner Trio",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 812508,
+          "resource_url": "https://api.discogs.com/artists/812508"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Indie Rock"]
+    }
+  },
+  {
+    "id": 14885415,
+    "instance_id": 488465356,
+    "date_added": "2020-07-11T20:16:00-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 14885415,
+      "master_id": 0,
+      "master_url": null,
+      "resource_url": "https://api.discogs.com/releases/14885415",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Frankie Bacon's Blue, Blue Heart",
+      "year": 2020,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Numbered",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Joyful Noise Recordings",
+          "catno": "JNR350-3",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 119541,
+          "resource_url": "https://api.discogs.com/labels/119541"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Ambulances",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2699444,
+          "resource_url": "https://api.discogs.com/artists/2699444"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": []
+    }
+  },
+  {
+    "id": 5493153,
+    "instance_id": 226190868,
+    "date_added": "2017-04-22T19:34:07-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 5493153,
+      "master_id": 583088,
+      "master_url": "https://api.discogs.com/masters/583088",
+      "resource_url": "https://api.discogs.com/releases/5493153",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Bizarre Tribe (A Quest To The Pharcyde)",
+      "year": 2013,
+      "formats": [
+        {
+          "name": "File",
+          "qty": "14",
+          "text": "320 kbps",
+          "descriptions": ["MP3", "Album", "Unofficial Release"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Not On Label (Amerigo Gazaway Self-released)",
+          "catno": "none",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 665039,
+          "resource_url": "https://api.discogs.com/labels/665039"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Amerigo Gazaway",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2529475,
+          "resource_url": "https://api.discogs.com/artists/2529475"
+        }
+      ],
+      "genres": ["Hip Hop", "Jazz", "Funk / Soul"],
+      "styles": ["Jazzy Hip-Hop"]
+    }
+  },
+  {
+    "id": 2848009,
+    "instance_id": 220721152,
+    "date_added": "2017-03-22T21:33:52-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 2848009,
+      "master_id": 51256,
+      "master_url": "https://api.discogs.com/masters/51256",
+      "resource_url": "https://api.discogs.com/releases/2848009",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Back To Black",
+      "year": 2006,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Universal Republic Records",
+          "catno": "B0008994-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 81846,
+          "resource_url": "https://api.discogs.com/labels/81846"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Amy Winehouse",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 151223,
+          "resource_url": "https://api.discogs.com/artists/151223"
+        }
+      ],
+      "genres": ["Jazz", "Funk / Soul", "Pop"],
+      "styles": ["Contemporary R&B", "Soul"]
+    }
+  },
+  {
+    "id": 4704757,
+    "instance_id": 311526838,
+    "date_added": "2018-07-25T20:43:15-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 4704757,
+      "master_id": 678797,
+      "master_url": "https://api.discogs.com/masters/678797",
+      "resource_url": "https://api.discogs.com/releases/4704757",
+      "thumb": "",
+      "cover_image": "",
+      "title": "I Was An Astronaut",
+      "year": 2013,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": ["LP"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Mariel Recording Company",
+          "catno": "MRC007",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 231188,
+          "resource_url": "https://api.discogs.com/labels/231188"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Archer Avenue",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 3360369,
+          "resource_url": "https://api.discogs.com/artists/3360369"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Indie Rock"]
+    }
+  },
+  {
+    "id": 4329406,
+    "instance_id": 313134760,
+    "date_added": "2018-08-04T13:18:08-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 4329406,
+      "master_id": 69774,
+      "master_url": "https://api.discogs.com/masters/69774",
+      "resource_url": "https://api.discogs.com/releases/4329406",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Favourite Worst Nightmare",
+      "year": 2013,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Gatefold",
+          "descriptions": ["LP", "Album", "Repress"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Domino",
+          "catno": "534467-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 26465,
+          "resource_url": "https://api.discogs.com/labels/26465"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Arctic Monkeys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 391170,
+          "resource_url": "https://api.discogs.com/artists/391170"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Alternative Rock", "Indie Rock"]
+    }
+  },
+  {
+    "id": 11826116,
+    "instance_id": 294199318,
+    "date_added": "2018-04-20T20:50:52-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11826116,
+      "master_id": 76279,
+      "master_url": "https://api.discogs.com/masters/76279",
+      "resource_url": "https://api.discogs.com/releases/11826116",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Whatever People Say I Am, That's What I'm Not",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Gray Translucent w/ Black Smoke, 180 g",
+          "descriptions": ["LP", "Album", "Club Edition", "Reissue"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Domino",
+          "catno": "WIGLP162VMP",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 26465,
+          "resource_url": "https://api.discogs.com/labels/26465"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Arctic Monkeys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 391170,
+          "resource_url": "https://api.discogs.com/artists/391170"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Indie Rock"]
+    }
+  },
+  {
+    "id": 14729818,
+    "instance_id": 442776406,
+    "date_added": "2020-03-02T15:39:43-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 14729818,
+      "master_id": 216167,
+      "master_url": "https://api.discogs.com/masters/216167",
+      "resource_url": "https://api.discogs.com/releases/14729818",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Lion Of Panjshir",
+      "year": 2020,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition",
+            "Numbered",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Joyful Noise Recordings",
+          "catno": "JNR350-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 119541,
+          "resource_url": "https://api.discogs.com/labels/119541"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Ariana Delawari",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1638256,
+          "resource_url": "https://api.discogs.com/artists/1638256"
+        }
+      ],
+      "genres": ["Rock", "Folk, World, & Country"],
+      "styles": ["Folk Rock", "Country Rock", "Downtempo", "Indie Rock"]
+    }
+  },
+  {
+    "id": 11188685,
+    "instance_id": 270967822,
+    "date_added": "2018-01-05T22:51:27-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11188685,
+      "master_id": 1273375,
+      "master_url": "https://api.discogs.com/masters/1273375",
+      "resource_url": "https://api.discogs.com/releases/11188685",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Diamanté",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Coke Bottle Clear w/ Bone Splatter",
+          "descriptions": ["10\"", "45 RPM", "EP", "Limited Edition"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Rise Records (3)",
+          "catno": "RISE-394",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 165412,
+          "resource_url": "https://api.discogs.com/labels/165412"
+        }
+      ],
+      "artists": [
+        {
+          "name": "At The Drive-In",
+          "anv": "At The Drive In",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 81742,
+          "resource_url": "https://api.discogs.com/artists/81742"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Post-Hardcore"]
+    }
+  },
+  {
+    "id": 3728830,
+    "instance_id": 171875705,
+    "date_added": "2016-05-12T21:19:25-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3728830,
+      "master_id": 45460,
+      "master_url": "https://api.discogs.com/masters/45460",
+      "resource_url": "https://api.discogs.com/releases/3728830",
+      "thumb": "",
+      "cover_image": "",
+      "title": "In/Casino/Out",
+      "year": 2012,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Clear",
+          "descriptions": ["LP", "Album", "Reissue"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Fearless Records",
+          "catno": "FRL 39034-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 35521,
+          "resource_url": "https://api.discogs.com/labels/35521"
+        }
+      ],
+      "artists": [
+        {
+          "name": "At The Drive-In",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 81742,
+          "resource_url": "https://api.discogs.com/artists/81742"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Emo", "Indie Rock"]
+    }
+  },
+  {
+    "id": 10234051,
+    "instance_id": 230338791,
+    "date_added": "2017-05-14T22:26:37-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 10234051,
+      "master_id": 1174052,
+      "master_url": "https://api.discogs.com/masters/1174052",
+      "resource_url": "https://api.discogs.com/releases/10234051",
+      "thumb": "",
+      "cover_image": "",
+      "title": "in•ter a•li•a",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Grimace Purple / Deep Purple With Grimace Purple Splatter Split",
+          "descriptions": ["LP", "Album", "Limited Edition"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Rise Records (3)",
+          "catno": "RISE 369-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 165412,
+          "resource_url": "https://api.discogs.com/labels/165412"
+        }
+      ],
+      "artists": [
+        {
+          "name": "At The Drive-In",
+          "anv": "At The Drive In",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 81742,
+          "resource_url": "https://api.discogs.com/artists/81742"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Indie Rock", "Post-Hardcore"]
+    }
+  },
+  {
+    "id": 7800028,
+    "instance_id": 172145108,
+    "date_added": "2016-05-14T21:48:28-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 7800028,
+      "master_id": 918528,
+      "master_url": "https://api.discogs.com/masters/918528",
+      "resource_url": "https://api.discogs.com/releases/7800028",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Music From Love & Mercy",
+      "year": 2015,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Blue/White Marbled",
+          "descriptions": ["LP", "Album", "Compilation"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "B002382001",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Atticus Ross",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 259284,
+          "resource_url": "https://api.discogs.com/artists/259284"
+        }
+      ],
+      "genres": ["Pop", "Stage & Screen"],
+      "styles": ["Soundtrack", "Score", "Ambient"]
+    }
+  },
+  {
+    "id": 11544269,
+    "instance_id": 283651495,
+    "date_added": "2018-03-02T19:40:54-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11544269,
+      "master_id": 0,
+      "master_url": null,
+      "resource_url": "https://api.discogs.com/releases/11544269",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Hasabe - My Worries",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Maroon, 180 gram",
+          "descriptions": ["LP", "Compilation", "Club Edition"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Now-Again Records",
+          "catno": "NA 5164",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 30886,
+          "resource_url": "https://api.discogs.com/labels/30886"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Ayalew Mesfin",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 1973611,
+          "resource_url": "https://api.discogs.com/artists/1973611"
+        }
+      ],
+      "genres": ["Folk, World, & Country"],
+      "styles": ["African"]
+    }
+  },
+  {
+    "id": 11521153,
+    "instance_id": 589209508,
+    "date_added": "2021-01-28T07:37:59-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11521153,
+      "master_id": 0,
+      "master_url": null,
+      "resource_url": "https://api.discogs.com/releases/11521153",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Aye Aye Rabbit / Ascending Diagonals",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Pink",
+          "descriptions": ["12\""]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Joyful Noise Recordings",
+          "catno": "JNR232-6",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 119541,
+          "resource_url": "https://api.discogs.com/labels/119541"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Aye Aye Rabbit",
+          "anv": "",
+          "join": "/",
+          "role": "",
+          "tracks": "",
+          "id": 6287533,
+          "resource_url": "https://api.discogs.com/artists/6287533"
+        },
+        {
+          "name": "John Dieterich",
+          "anv": "",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 361931,
+          "resource_url": "https://api.discogs.com/artists/361931"
+        },
+        {
+          "name": "Luke Gullickson",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 5171189,
+          "resource_url": "https://api.discogs.com/artists/5171189"
+        }
+      ],
+      "genres": ["Rock", "Classical"],
+      "styles": ["Avantgarde"]
+    }
+  },
+  {
+    "id": 1374939,
+    "instance_id": 177117738,
+    "date_added": "2016-06-22T13:50:27-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1374939,
+      "master_id": 25074,
+      "master_url": "https://api.discogs.com/masters/25074",
+      "resource_url": "https://api.discogs.com/releases/1374939",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Bad Brains",
+      "year": 1997,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "ROIR",
+          "catno": "RUSLP 8223",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 18316,
+          "resource_url": "https://api.discogs.com/labels/18316"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock", "Reggae"],
+      "styles": ["Reggae", "Hardcore", "Punk"]
+    }
+  },
+  {
+    "id": 13472644,
+    "instance_id": 375320921,
+    "date_added": "2019-05-14T14:24:26-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 13472644,
+      "master_id": 25096,
+      "master_url": "https://api.discogs.com/masters/25096",
+      "resource_url": "https://api.discogs.com/releases/13472644",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Black Dots",
+      "year": 2019,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "White",
+          "descriptions": ["LP", "Album", "Limited Edition", "Reissue"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Astralwerks",
+          "catno": "B0027113-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 188,
+          "resource_url": "https://api.discogs.com/labels/188"
+        },
+        {
+          "name": "Universal Music Special Markets",
+          "catno": "B0027113-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 56128,
+          "resource_url": "https://api.discogs.com/labels/56128"
+        },
+        {
+          "name": "Capitol Records",
+          "catno": "B0027113-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock", "Reggae"],
+      "styles": ["Hardcore", "Punk", "Reggae"]
+    }
+  },
+  {
+    "id": 2861726,
+    "instance_id": 171876432,
+    "date_added": "2016-05-12T21:25:29-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 2861726,
+      "master_id": 25122,
+      "master_url": "https://api.discogs.com/masters/25122",
+      "resource_url": "https://api.discogs.com/releases/2861726",
+      "thumb": "",
+      "cover_image": "",
+      "title": "God Of Love",
+      "year": 2011,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Reissue"]
+        },
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Bonus",
+          "descriptions": ["7\""]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Maverick",
+          "catno": "527297-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1685,
+          "resource_url": "https://api.discogs.com/labels/1685"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock", "Reggae"],
+      "styles": ["Reggae", "Hardcore", "Punk"]
+    }
+  },
+  {
+    "id": 5158595,
+    "instance_id": 171876390,
+    "date_added": "2016-05-12T21:25:10-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 5158595,
+      "master_id": 25150,
+      "master_url": "https://api.discogs.com/masters/25150",
+      "resource_url": "https://api.discogs.com/releases/5158595",
+      "thumb": "",
+      "cover_image": "",
+      "title": "I Against I",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Clear",
+          "descriptions": ["LP", "Album", "Repress"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "SST Records",
+          "catno": "SST 065",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 9335,
+          "resource_url": "https://api.discogs.com/labels/9335"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Funk Metal", "Punk"]
+    }
+  },
+  {
+    "id": 9071818,
+    "instance_id": 206471245,
+    "date_added": "2017-01-07T21:37:50-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 9071818,
+      "master_id": 491412,
+      "master_url": "https://api.discogs.com/masters/491412",
+      "resource_url": "https://api.discogs.com/releases/9071818",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Into The Future",
+      "year": 2012,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Gatefold Green",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Megaforce Records",
+          "catno": "MEGA 21224",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 35976,
+          "resource_url": "https://api.discogs.com/labels/35976"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock", "Reggae"],
+      "styles": ["Punk", "Hardcore", "Reggae"]
+    }
+  },
+  {
+    "id": 3422326,
+    "instance_id": 177117679,
+    "date_added": "2016-06-22T13:49:29-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3422326,
+      "master_id": 334951,
+      "master_url": "https://api.discogs.com/masters/334951",
+      "resource_url": "https://api.discogs.com/releases/3422326",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Live At CBGB 1982",
+      "year": 2010,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Clear Multicoloured Splattered",
+          "descriptions": ["LP", "Album", "Limited Edition"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "MVD Audio",
+          "catno": "MVD4994LP",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 105417,
+          "resource_url": "https://api.discogs.com/labels/105417"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock", "Reggae"],
+      "styles": ["Punk"]
+    }
+  },
+  {
+    "id": 385506,
+    "instance_id": 171928296,
+    "date_added": "2016-05-13T11:53:27-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 385506,
+      "master_id": 25239,
+      "master_url": "https://api.discogs.com/masters/25239",
+      "resource_url": "https://api.discogs.com/releases/385506",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Rock For Light",
+      "year": 1983,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "PVC Records",
+          "catno": "PVC 8917",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 13206,
+          "resource_url": "https://api.discogs.com/labels/13206"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bad Brains",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251561,
+          "resource_url": "https://api.discogs.com/artists/251561"
+        }
+      ],
+      "genres": ["Rock", "Reggae"],
+      "styles": ["Reggae", "Hardcore", "Punk"]
+    }
+  },
+  {
+    "id": 5646929,
+    "instance_id": 498305416,
+    "date_added": "2020-08-15T19:32:07-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 5646929,
+      "master_id": 682250,
+      "master_url": "https://api.discogs.com/masters/682250",
+      "resource_url": "https://api.discogs.com/releases/5646929",
+      "thumb": "",
+      "cover_image": "",
+      "title": "III",
+      "year": 2014,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Innovative Leisure Records",
+          "catno": "IL2019",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 168625,
+          "resource_url": "https://api.discogs.com/labels/168625"
+        }
+      ],
+      "artists": [
+        {
+          "name": "BadBadNotGood",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2468526,
+          "resource_url": "https://api.discogs.com/artists/2468526"
+        }
+      ],
+      "genres": ["Jazz"],
+      "styles": ["Contemporary Jazz"]
+    }
+  },
+  {
+    "id": 8753882,
+    "instance_id": 179391037,
+    "date_added": "2016-07-11T23:44:56-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8753882,
+      "master_id": 1025292,
+      "master_url": "https://api.discogs.com/masters/1025292",
+      "resource_url": "https://api.discogs.com/releases/8753882",
+      "thumb": "",
+      "cover_image": "",
+      "title": "IV",
+      "year": 2016,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Magenta Transparent",
+          "descriptions": ["LP", "Album", "Club Edition"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Innovative Leisure Records",
+          "catno": "IL 2034",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 168625,
+          "resource_url": "https://api.discogs.com/labels/168625"
+        }
+      ],
+      "artists": [
+        {
+          "name": "BadBadNotGood",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 2468526,
+          "resource_url": "https://api.discogs.com/artists/2468526"
+        }
+      ],
+      "genres": ["Electronic", "Jazz"],
+      "styles": ["Downtempo"]
+    }
+  },
+  {
+    "id": 833398,
+    "instance_id": 200339033,
+    "date_added": "2016-12-02T13:03:04-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 833398,
+      "master_id": 81303,
+      "master_url": "https://api.discogs.com/masters/81303",
+      "resource_url": "https://api.discogs.com/releases/833398",
+      "thumb": "",
+      "cover_image": "",
+      "title": "About A Boy",
+      "year": 2002,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Twisted Nerve",
+          "catno": "TNXLLP152",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2287,
+          "resource_url": "https://api.discogs.com/labels/2287"
+        },
+        {
+          "name": "XL Recordings",
+          "catno": "TNXLLP152",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 160,
+          "resource_url": "https://api.discogs.com/labels/160"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Badly Drawn Boy",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 4851,
+          "resource_url": "https://api.discogs.com/artists/4851"
+        }
+      ],
+      "genres": ["Rock", "Pop", "Stage & Screen"],
+      "styles": ["Folk Rock", "Pop Rock", "Soundtrack"]
+    }
+  },
+  {
+    "id": 15349817,
+    "instance_id": 488466889,
+    "date_added": "2020-07-11T20:21:01-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 15349817,
+      "master_id": 1742795,
+      "master_url": "https://api.discogs.com/masters/1742795",
+      "resource_url": "https://api.discogs.com/releases/15349817",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Banana Skin Shoes",
+      "year": 2020,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "One Last Fruit",
+          "catno": "OLF005LP",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 212134,
+          "resource_url": "https://api.discogs.com/labels/212134"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Badly Drawn Boy",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 4851,
+          "resource_url": "https://api.discogs.com/artists/4851"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Indie Rock"]
+    }
+  },
+  {
+    "id": 8048187,
+    "instance_id": 171876561,
+    "date_added": "2016-05-12T21:26:32-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8048187,
+      "master_id": 55605,
+      "master_url": "https://api.discogs.com/masters/55605",
+      "resource_url": "https://api.discogs.com/releases/8048187",
+      "thumb": "",
+      "cover_image": "",
+      "title": "The Hour Of Bewilderbeast",
+      "year": 2016,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": ["LP", "Album", "Reissue"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "XL Recordings",
+          "catno": "TNXLLP695",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 160,
+          "resource_url": "https://api.discogs.com/labels/160"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Badly Drawn Boy",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 4851,
+          "resource_url": "https://api.discogs.com/artists/4851"
+        }
+      ],
+      "genres": ["Electronic", "Rock"],
+      "styles": ["Folk Rock", "Downtempo", "Leftfield"]
+    }
+  },
+  {
+    "id": 6988461,
+    "instance_id": 171876796,
+    "date_added": "2016-05-12T21:28:43-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 6988461,
+      "master_id": 14516,
+      "master_url": "https://api.discogs.com/masters/14516",
+      "resource_url": "https://api.discogs.com/releases/6988461",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Islands",
+      "year": 1977,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Winchester Press",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "SO-11602",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Folk Rock"]
+    }
+  },
+  {
+    "id": 12466360,
+    "instance_id": 411228385,
+    "date_added": "2019-10-29T15:24:03-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 12466360,
+      "master_id": 14468,
+      "master_url": "https://api.discogs.com/masters/14468",
+      "resource_url": "https://api.discogs.com/releases/12466360",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Music From Big Pink",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Remix 180g",
+          "descriptions": ["12\"", "45 RPM", "Album", "Remastered", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "B0028420-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "UMe",
+          "catno": "B0028420-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 68029,
+          "resource_url": "https://api.discogs.com/labels/68029"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Folk Rock", "Acoustic", "Blues Rock"]
+    }
+  },
+  {
+    "id": 1137787,
+    "instance_id": 171876645,
+    "date_added": "2016-05-12T21:27:20-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1137787,
+      "master_id": 81288,
+      "master_url": "https://api.discogs.com/masters/81288",
+      "resource_url": "https://api.discogs.com/releases/1137787",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Rock Of Ages (The Band In Concert)",
+      "year": 1972,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Scranton Press",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "SABB 11045",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "Capitol Records",
+          "catno": "SABB-11045",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Folk Rock", "Country Rock"]
+    }
+  },
+  {
+    "id": 1137787,
+    "instance_id": 182763422,
+    "date_added": "2016-08-07T17:54:21-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1137787,
+      "master_id": 81288,
+      "master_url": "https://api.discogs.com/masters/81288",
+      "resource_url": "https://api.discogs.com/releases/1137787",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Rock Of Ages (The Band In Concert)",
+      "year": 1972,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Scranton Press",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "SABB 11045",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "Capitol Records",
+          "catno": "SABB-11045",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Folk Rock", "Country Rock"]
+    }
+  },
+  {
+    "id": 17395474,
+    "instance_id": 729537721,
+    "date_added": "2021-06-12T11:22:43-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 17395474,
+      "master_id": 81285,
+      "master_url": "https://api.discogs.com/masters/81285",
+      "resource_url": "https://api.discogs.com/releases/17395474",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Stage Fright",
+      "year": 2021,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180g, Black Vinyl",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "00602507352400",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Country Rock", "Folk Rock"]
+    }
+  },
+  {
+    "id": 14422120,
+    "instance_id": 582763632,
+    "date_added": "2021-01-22T16:07:13-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 14422120,
+      "master_id": 14499,
+      "master_url": "https://api.discogs.com/masters/14499",
+      "resource_url": "https://api.discogs.com/releases/14422120",
+      "thumb": "",
+      "cover_image": "",
+      "title": "The Band ",
+      "year": 2019,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "50th Anniversary Edition, 180g",
+          "descriptions": [
+            "12\"",
+            "45 RPM",
+            "Album",
+            "Reissue",
+            "Remastered",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "B0030461-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "UMe",
+          "catno": "B0030461-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 68029,
+          "resource_url": "https://api.discogs.com/labels/68029"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Country Rock", "Folk Rock"]
+    }
+  },
+  {
+    "id": 1564673,
+    "instance_id": 171876730,
+    "date_added": "2016-05-12T21:28:03-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1564673,
+      "master_id": 14495,
+      "master_url": "https://api.discogs.com/masters/14495",
+      "resource_url": "https://api.discogs.com/releases/1564673",
+      "thumb": "",
+      "cover_image": "",
+      "title": "The Last Waltz",
+      "year": 1978,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "3",
+          "text": "Jacksonville Pressing",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Warner Bros. Records",
+          "catno": "3WS 3146",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1000,
+          "resource_url": "https://api.discogs.com/labels/1000"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Band",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 254199,
+          "resource_url": "https://api.discogs.com/artists/254199"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Folk Rock", "Country Rock", "Classic Rock"]
+    }
+  },
+  {
+    "id": 1345534,
+    "instance_id": 251067155,
+    "date_added": "2017-09-19T23:18:27-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1345534,
+      "master_id": 64756,
+      "master_url": "https://api.discogs.com/masters/64756",
+      "resource_url": "https://api.discogs.com/releases/1345534",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Different Light",
+      "year": 1986,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Carrollton Pressing",
+          "descriptions": ["LP", "Album", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Columbia",
+          "catno": "FC 40039",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1866,
+          "resource_url": "https://api.discogs.com/labels/1866"
+        },
+        {
+          "name": "Columbia",
+          "catno": "40039",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1866,
+          "resource_url": "https://api.discogs.com/labels/1866"
+        },
+        {
+          "name": "Columbia",
+          "catno": "BFC 40039",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1866,
+          "resource_url": "https://api.discogs.com/labels/1866"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Bangles",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 124489,
+          "resource_url": "https://api.discogs.com/artists/124489"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Pop Rock"]
+    }
+  },
+  {
+    "id": 13627146,
+    "instance_id": 398629715,
+    "date_added": "2019-09-02T15:10:24-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 13627146,
+      "master_id": 1542572,
+      "master_url": "https://api.discogs.com/masters/1542572",
+      "resource_url": "https://api.discogs.com/releases/13627146",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Happy To Be Here",
+      "year": 2019,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Blue [Swimming Pool]",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Club Edition",
+            "Limited Edition",
+            "Numbered"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Winspear",
+          "catno": "WSP030",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1388658,
+          "resource_url": "https://api.discogs.com/labels/1388658"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Barrie (2)",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 8206217,
+          "resource_url": "https://api.discogs.com/artists/8206217"
+        }
+      ],
+      "genres": ["Pop"],
+      "styles": ["Indie Pop"]
+    }
+  },
+  {
+    "id": 12642117,
+    "instance_id": 398629909,
+    "date_added": "2019-09-02T15:11:24-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 12642117,
+      "master_id": 1477685,
+      "master_url": "https://api.discogs.com/masters/1477685",
+      "resource_url": "https://api.discogs.com/releases/12642117",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Singles",
+      "year": 2018,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Baby Blue",
+          "descriptions": ["12\"", "45 RPM", "EP", "Limited Edition"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Winspear",
+          "catno": "WSP024",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1388658,
+          "resource_url": "https://api.discogs.com/labels/1388658"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Barrie (2)",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 8206217,
+          "resource_url": "https://api.discogs.com/artists/8206217"
+        }
+      ],
+      "genres": ["Electronic"],
+      "styles": ["Downtempo", "Chillwave"]
+    }
+  },
+  {
+    "id": 554024,
+    "instance_id": 261710893,
+    "date_added": "2017-11-17T23:50:48-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 554024,
+      "master_id": 37829,
+      "master_url": "https://api.discogs.com/masters/37829",
+      "resource_url": "https://api.discogs.com/releases/554024",
+      "thumb": "",
+      "cover_image": "",
+      "title": "I've Got So Much To Give",
+      "year": 1973,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Santa Maria Press",
+          "descriptions": ["LP", "Album", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "20th Century Records",
+          "catno": "T-407",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2350,
+          "resource_url": "https://api.discogs.com/labels/2350"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Barry White",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 18978,
+          "resource_url": "https://api.discogs.com/artists/18978"
+        }
+      ],
+      "genres": ["Funk / Soul"],
+      "styles": ["Soul", "Disco"]
+    }
+  },
+  {
+    "id": 4636760,
+    "instance_id": 249937515,
+    "date_added": "2017-09-13T12:27:16-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 4636760,
+      "master_id": 78288,
+      "master_url": "https://api.discogs.com/masters/78288",
+      "resource_url": "https://api.discogs.com/releases/4636760",
+      "thumb": "",
+      "cover_image": "",
+      "title": "In Concert",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Gatefold",
+          "descriptions": ["LP", "Album"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Brother Records (3)",
+          "catno": "2RS 6484",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 99693,
+          "resource_url": "https://api.discogs.com/labels/99693"
+        },
+        {
+          "name": "Brother Records (3)",
+          "catno": "2RS 6484",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 99693,
+          "resource_url": "https://api.discogs.com/labels/99693"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Surf"]
+    }
+  },
+  {
+    "id": 8627508,
+    "instance_id": 205369823,
+    "date_added": "2017-01-02T15:14:01-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8627508,
+      "master_id": 17217,
+      "master_url": "https://api.discogs.com/masters/17217",
+      "resource_url": "https://api.discogs.com/releases/8627508",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Pet Sounds",
+      "year": 2016,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "UMe",
+          "catno": "B0024729-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 68029,
+          "resource_url": "https://api.discogs.com/labels/68029"
+        },
+        {
+          "name": "Capitol Records",
+          "catno": "ST 2458",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Rock", "Pop"],
+      "styles": ["Psychedelic Rock", "Pop Rock"]
+    }
+  },
+  {
+    "id": 3221265,
+    "instance_id": 171876943,
+    "date_added": "2016-05-12T21:30:00-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3221265,
+      "master_id": 381486,
+      "master_url": "https://api.discogs.com/masters/381486",
+      "resource_url": "https://api.discogs.com/releases/3221265",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Smile Sessions",
+      "year": 2011,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180 Gram",
+          "descriptions": ["LP", "Compilation", "Stereo", "Mono"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "T 2580",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Pop Rock"]
+    }
+  },
+  {
+    "id": 1329745,
+    "instance_id": 268242843,
+    "date_added": "2017-12-24T02:04:04-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 1329745,
+      "master_id": 78379,
+      "master_url": "https://api.discogs.com/masters/78379",
+      "resource_url": "https://api.discogs.com/releases/1329745",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Surf's Up",
+      "year": 1971,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Santa Maria Pressing",
+          "descriptions": ["LP", "Album", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Reprise Records",
+          "catno": "RS 6453",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        },
+        {
+          "name": "Brother Records (3)",
+          "catno": "RS 6453",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 99693,
+          "resource_url": "https://api.discogs.com/labels/99693"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Rock", "Pop"],
+      "styles": ["Pop Rock", "Rock & Roll"]
+    }
+  },
+  {
+    "id": 3137527,
+    "instance_id": 173300638,
+    "date_added": "2016-05-23T01:53:42-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3137527,
+      "master_id": 78422,
+      "master_url": "https://api.discogs.com/masters/78422",
+      "resource_url": "https://api.discogs.com/releases/3137527",
+      "thumb": "",
+      "cover_image": "",
+      "title": "The Beach Boys' Christmas Album",
+      "year": 1975,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Jacksonville Pressing",
+          "descriptions": ["LP", "Album", "Reissue", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "SM-2164",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Pop"],
+      "styles": ["Ballad", "Vocal"]
+    }
+  },
+  {
+    "id": 10598400,
+    "instance_id": 249937548,
+    "date_added": "2017-09-13T12:27:32-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 10598400,
+      "master_id": 78439,
+      "master_url": "https://api.discogs.com/masters/78439",
+      "resource_url": "https://api.discogs.com/releases/10598400",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Wild Honey",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "180 Gram",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered", "Stereo"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "ST 2859",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "UMe",
+          "catno": "B0026540-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 68029,
+          "resource_url": "https://api.discogs.com/labels/68029"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Pop Rock"]
+    }
+  },
+  {
+    "id": 10470546,
+    "instance_id": 268242767,
+    "date_added": "2017-12-24T02:03:15-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 10470546,
+      "master_id": 291747,
+      "master_url": "https://api.discogs.com/masters/291747",
+      "resource_url": "https://api.discogs.com/releases/10470546",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Wild Honey & 20/20",
+      "year": 1974,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Terre Haute Pressing, Gatefold",
+          "descriptions": ["LP", "Album", "Compilation"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Brother Records (3)",
+          "catno": "2MS 2166",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 99693,
+          "resource_url": "https://api.discogs.com/labels/99693"
+        },
+        {
+          "name": "Reprise Records",
+          "catno": "2MS 2166",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 157,
+          "resource_url": "https://api.discogs.com/labels/157"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Beach Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 70829,
+          "resource_url": "https://api.discogs.com/artists/70829"
+        }
+      ],
+      "genres": ["Rock"],
+      "styles": ["Surf", "Pop Rock"]
+    }
+  },
+  {
+    "id": 3950974,
+    "instance_id": 172002674,
+    "date_added": "2016-05-13T22:32:47-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 3950974,
+      "master_id": 20145,
+      "master_url": "https://api.discogs.com/masters/20145",
+      "resource_url": "https://api.discogs.com/releases/3950974",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Check Your Head",
+      "year": 2009,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180 Gram, Gatefold",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "C1-94225",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "Grand Royal",
+          "catno": "C1-94225",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2236,
+          "resource_url": "https://api.discogs.com/labels/2236"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Beastie Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 10783,
+          "resource_url": "https://api.discogs.com/artists/10783"
+        }
+      ],
+      "genres": ["Hip Hop", "Jazz", "Rock"],
+      "styles": ["Cut-up/DJ", "Fusion"]
+    }
+  },
+  {
+    "id": 2072731,
+    "instance_id": 279613127,
+    "date_added": "2018-02-12T16:56:33-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 2072731,
+      "master_id": 20224,
+      "master_url": "https://api.discogs.com/masters/20224",
+      "resource_url": "https://api.discogs.com/releases/2072731",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Hello Nasty",
+      "year": 2009,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "180 Gram",
+          "descriptions": ["LP", "Album", "Reissue", "Remastered"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "509996 94239 18",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        },
+        {
+          "name": "Grand Royal",
+          "catno": "509996 94239 18",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2236,
+          "resource_url": "https://api.discogs.com/labels/2236"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Beastie Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 10783,
+          "resource_url": "https://api.discogs.com/artists/10783"
+        }
+      ],
+      "genres": ["Hip Hop", "Funk / Soul"],
+      "styles": ["Instrumental", "Funk"]
+    }
+  },
+  {
+    "id": 11247961,
+    "instance_id": 279613130,
+    "date_added": "2018-02-12T16:56:33-08:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 11247961,
+      "master_id": 332216,
+      "master_url": "https://api.discogs.com/masters/332216",
+      "resource_url": "https://api.discogs.com/releases/11247961",
+      "thumb": "",
+      "cover_image": "",
+      "title": "Hot Sauce Committee Part Two",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": ["LP", "Album", "Reissue", "Repress"]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Capitol Records",
+          "catno": "B0026990-01",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 654,
+          "resource_url": "https://api.discogs.com/labels/654"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Beastie Boys",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 10783,
+          "resource_url": "https://api.discogs.com/artists/10783"
+        }
+      ],
+      "genres": ["Hip Hop"],
+      "styles": []
+    }
+  }
+]

@@ -1,0 +1,43 @@
+@import '~assets/styles/imports';
+
+.root {
+  align-items: center;
+  align-items: flex-start;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans-serif);
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.35s ease;
+  width: 100%;
+
+  &--visible {
+    opacity: 1;
+  }
+
+  &:hover,
+  &:focus-within {
+    background: var(--color-black);
+    box-shadow: var(--box-shadow-hover);
+
+    [data-element='heading'] {
+      color: var(--color-white);
+      text-decoration: underline;
+
+      button {
+        color: var(--color-white);
+      }
+    }
+
+    [data-element='artist'],
+    [data-element='formats'] {
+      color: var(--color-white);
+    }
+  }
+}

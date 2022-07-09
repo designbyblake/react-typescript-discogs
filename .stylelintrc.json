@@ -1,12 +1,6 @@
 {
-  "extends": [
-    "stylelint-config-standard-scss",
-    "stylelint-config-prettier"
-  ],
-  "plugins": [
-    "stylelint-scss",
-    "stylelint-order"
-  ],
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
   "rules": {
     "property-no-vendor-prefix": null,
     "at-rule-no-unknown": null,
@@ -18,9 +12,16 @@
     "order/properties-alphabetical-order": true,
     "scss/at-mixin-pattern": null,
     "color-function-notation": "legacy",
-    "alpha-value-notation": "number"
+    "alpha-value-notation": "number",
+    "value-keyword-case": null,
+    "scss/double-slash-comment-whitespace-inside": null,
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global"]
+      }
+    ],
+    "no-descending-specificity": null
   },
-  "ignoreFiles": [
-    "src/stories/**/*.css"
-  ]
+  "ignoreFiles": ["src/stories/**/*.css"]
 }

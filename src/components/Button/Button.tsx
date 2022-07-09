@@ -7,7 +7,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     {
       children,
       type = 'button',
-      btnStyle = 'button',
+      variant = 'button',
       className,
       ...props
     }: ButtonProps,
@@ -16,7 +16,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     return (
       <button
         data-testid='button'
-        data-style={btnStyle}
+        data-style={variant}
         ref={ref}
         type={type}
         className={cn(styles.button, className)}
@@ -34,6 +34,6 @@ export type ButtonProps = {
   children: string | Array<React.ReactElement> | React.ReactElement;
   className?: string;
   type?: 'button' | 'submit' | 'reset';
-  btnStyle?: 'button' | 'youtube';
+  variant?: 'button' | 'youtube' | 'title';
 } & AriaAttributes &
   Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'className' | 'type'>;

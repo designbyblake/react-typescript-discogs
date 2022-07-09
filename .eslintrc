@@ -12,7 +12,8 @@
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:lodash/recommended"
   ],
   "settings": {
     "react": {
@@ -26,8 +27,10 @@
     {
       "files": ["**/*.ts?(x)"],
       "rules": {
-        "prettier/prettier": ["error", {
-            "endOfLine": "lf"
+        "prettier/prettier": [
+          "error",
+          {
+            "endOfLine": "auto"
           }
         ],
         "no-restricted-imports": [
@@ -42,10 +45,18 @@
             ]
           }
         ],
+        "no-restricted-syntax": [
+          "error",
+          {
+              "selector": "ImportDeclaration[source.value=classnames] Identifier[name=/^(?!cn$).*/]",
+              "message": "Use 'cn' name for 'classnames' import"
+          }
+        ],
         "implicit-arrow-linebreak": "off",
         "comma-dangle": ["error", "never"],
         "no-use-before-define": "off",
         "max-len": ["warn", { "code": 180 }],
+        "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "jsx-quotes": ["error", "prefer-single"],
         "jsx-a11y/label-has-associated-control": [
           "error",
@@ -55,7 +66,7 @@
             }
           }
         ],
-
+        "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
         "@typescript-eslint/ban-ts-comment": [
@@ -64,7 +75,6 @@
             "ts-ignore": "allow-with-description"
           }
         ],
-
         "react/function-component-definition": [
           "warn",
           {
@@ -82,32 +92,127 @@
         ],
         "react/prop-types": "off",
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/exhaustive-deps": "error",
         "react/require-default-props": "off",
         "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-
         "import/no-extraneous-dependencies": "off",
-        "import/prefer-default-export": "off"
+        "import/prefer-default-export": "off",
+        "lodash/import-scope": [2, "method"],
+        "lodash/prefer-lodash-method": "off",
+        "lodash/prefer-noop": "off",
+        "lodash/prefer-constant": "off"
       }
     },
-
     {
       "files": ["**/*.stories.*"],
       "rules": {
         "max-len": "off",
-
         "react/jsx-props-no-spreading": "off",
         "react/no-unescaped-entities": "off",
-
         "import/no-anonymous-default-export": "off",
         "import/no-extraneous-dependencies": "off"
       }
     },
-
     {
       "files": ["**/*.test.ts?(x)"],
       "rules": {
         "react/jsx-no-constructed-context-values": "off"
+      }
+    },
+    {
+      "files": ["**/*.stories.*", "**/*.test.ts?(x)", "./src/uikit/**/*.*"],
+      "rules": {
+        "lodash/prefer-get": "off",
+        "lodash/prefer-includes": "off",
+        "lodash/prefer-is-nil": "off",
+        "lodash/prefer-lodash-chain": "off",
+        "lodash/prefer-lodash-typecheck": "off",
+        "lodash/prefer-matches": "off",
+        "lodash/prefer-over-quantified": "off",
+        "lodash/prefer-some": "off",
+        "lodash/prefer-startswith": "off",
+        "lodash/prefer-times": "off"
+      }
+    },
+    {
+      "files": ["**/views/Claims/**/*.ts?(x)", "**/views/CareResources/**/*.ts?(x)"],
+      "rules": {
+        "import/order": ["error", {
+          "pathGroupsExcludedImportTypes": [],
+          "groups": [
+            ["builtin", "external"],
+            ["internal"],
+            ["parent", "sibling", "index"]
+          ],
+          "pathGroups": [
+            {
+              "pattern": "App",
+              "group": "internal"
+            },
+
+            {
+              "pattern": "assets/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "types",
+              "group": "internal"
+            },
+            {
+              "pattern": "types/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "hooks",
+              "group": "internal"
+            },
+            {
+              "pattern": "hooks/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "utils",
+              "group": "internal"
+            },
+            {
+              "pattern": "utils/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "tests/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "views",
+              "group": "internal"
+            },
+            {
+              "pattern": "views/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "constants/*",
+              "group": "internal"
+            },
+            {
+              "pattern": "components",
+              "group": "internal"
+            },
+            {
+              "pattern": "components/**",
+              "group": "internal"
+            },
+            {
+              "pattern": "providers",
+              "group": "internal"
+            },
+            {
+              "pattern": "providers/**",
+              "group": "internal"
+            }
+          ],
+          "newlines-between": "always"
+        }]
       }
     }
   ]
