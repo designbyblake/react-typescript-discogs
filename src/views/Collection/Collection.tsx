@@ -1,44 +1,36 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useParams } from 'react-router-dom';
-// import { useLoadCollection } from 'hooks/useLoadCollection/useLoadCollection';
 import { BackgroundImage } from 'components/BackgroundImage';
 import { Listing } from 'components/Listing';
 import cn from 'classnames';
-import { useQuery, useInfiniteQuery } from 'react-query';
+import { useInfiniteQuery } from 'react-query';
 
 import { useEffect } from 'react';
 import { ReactQueryDevtools } from 'react-query/devtools';
+
 import styles from './Collection.module.scss';
 
 export const Collection = () => {
   const { userName } = useParams();
-  //   const { collection, loading } = useLoadCollection(userName || '');
-  const fetchCollection = async ({
-    pageParam = `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/1`
-  }) => {
-    const apiResponse = await fetch(pageParam);
+
+  const fetchCollection = async ({ pageParam = 1 }) => {
+    const apiResponse = await fetch(
+      `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/${pageParam}`
+    );
     const json = await apiResponse.json();
-    console.log(json);
-    return { response: json.releases, nextPage: json.pagination?.urls?.next };
+    const currentPage = json.pagination?.page;
+    const nextPage =
+      currentPage !== json.pagination?.pages
+        ? parseInt(currentPage, 10) + 1
+        : false;
+
+    return { response: json.releases, nextPage };
   };
 
-  //   const fetchURL = `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/1`;
-  //   const { data, isError, isLoading } = useQuery('collection', async () => {
-  //     const apiResponse = await fetch(fetchURL);
-  //     const json = await apiResponse.json();
-  //     console.log(json);
-  //     return json.releases;
-  //   });
-
-  //
   const {
     data,
-    error,
     fetchNextPage,
     hasNextPage,
-    isFetching,
     isFetchingNextPage,
-    status,
     isLoading,
     isError
   } = useInfiniteQuery(['projects'], fetchCollection, {
@@ -49,7 +41,7 @@ export const Collection = () => {
     if (hasNextPage && !isFetchingNextPage)
       setTimeout(() => {
         fetchNextPage();
-      }, 10000);
+      }, 1000);
   }, [fetchNextPage, hasNextPage, isFetchingNextPage]);
 
   if (isLoading) {
@@ -75,7 +67,7 @@ export const Collection = () => {
       <BackgroundImage />
       <div className={cn(styles.root, 'container')}>
         <ul data-element='collection'>
-          {data?.pages.map((group, i) =>
+          {data?.pages.map((group) =>
             group.response.map((record: any) => (
               <li
                 key={`${record.instance_id}-${record.date_added}`}
@@ -86,17 +78,6 @@ export const Collection = () => {
             ))
           )}
         </ul>
-        <button
-          onClick={() => fetchNextPage()}
-          disabled={!hasNextPage || isFetchingNextPage}
-        >
-          {/* eslint-disable-next-line no-nested-ternary */}
-          {isFetchingNextPage
-            ? 'Loading more...'
-            : hasNextPage
-            ? 'Load More'
-            : 'Nothing more to load'}
-        </button>
       </div>
       <ReactQueryDevtools />
     </>
