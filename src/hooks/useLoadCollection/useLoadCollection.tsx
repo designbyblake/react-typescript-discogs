@@ -24,6 +24,10 @@ export const useLoadCollection = (userName: string): TApiResponse => {
   );
 
   useEffect(() => {
+    if (currentPage === 1) setCollection([]);
+  }, [currentPage]);
+
+  useEffect(() => {
     const getAPIData = async () => {
       try {
         const apiResponse = await fetch(fetchURL);
@@ -53,7 +57,14 @@ export const useLoadCollection = (userName: string): TApiResponse => {
     };
 
     getAPIData();
-  }, [fetchURL, userName]);
+
+    return () => {
+      setCollection([]);
+      setFetchURL(
+        `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/${currentPage}`
+      );
+    };
+  }, [currentPage, fetchURL, userName]);
 
   return { status, statusText, data, error, loading, collection };
 };

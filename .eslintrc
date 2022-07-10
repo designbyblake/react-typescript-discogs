@@ -100,7 +100,8 @@
         "lodash/import-scope": [2, "method"],
         "lodash/prefer-lodash-method": "off",
         "lodash/prefer-noop": "off",
-        "lodash/prefer-constant": "off"
+        "lodash/prefer-constant": "off",
+		"lodash/prefer-lodash-typecheck": "off"
       }
     },
     {
