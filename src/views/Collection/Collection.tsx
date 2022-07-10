@@ -25,7 +25,10 @@ export const Collection = () => {
         <ul data-element='collection'>
           {collection?.map((record) => {
             return (
-              <li key={record.instance_id} style={{ maxWidth: '320px' }}>
+              <li
+                key={`${record.instance_id}-${record.date_added}`}
+                style={{ maxWidth: '320px' }}
+              >
                 <Listing basicInformation={record.basic_information} />
               </li>
             );
