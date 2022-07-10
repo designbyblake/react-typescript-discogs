@@ -54,7 +54,6 @@ export const useLoadCollection = (userName: string): TApiResponse => {
         setError(errorMessage);
       }
       setLoading(false);
-      console.log('useEffect');
     };
 
     getAPIData();
@@ -64,7 +63,6 @@ export const useLoadCollection = (userName: string): TApiResponse => {
       setFetchURL(
         `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/${currentPage}`
       );
-      console.log('clean up');
     };
   }, [currentPage, fetchURL, userName]);
 
