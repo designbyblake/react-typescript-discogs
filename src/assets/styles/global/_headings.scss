@@ -24,12 +24,12 @@ h1 {
   font-size: rem(24);
   margin-top: 0;
 
-  @media (min-width: 1000px) {
-    font-size: rem(64);
-  }
-
   @media #{$tablet-up} {
     font-size: rem(36);
+  }
+
+  @media (min-width: 1000px) {
+    font-size: rem(64);
   }
 }
 
