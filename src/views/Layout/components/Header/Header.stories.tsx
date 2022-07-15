@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { Navigation } from 'components/Navigation/Navigation';
+import { Navigation } from 'views/Layout/components/Navigation/Navigation';
 import { Header } from './Header';
 
 export default {

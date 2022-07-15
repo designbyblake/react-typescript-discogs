@@ -1,0 +1,13 @@
+@import '~assets/styles/imports';
+.root {
+  margin-bottom: 20px;
+  p {
+    font-size: rem(28);
+  }
+
+  h1,
+  p {
+    @include shadow-text;
+    margin: 0;
+  }
+}

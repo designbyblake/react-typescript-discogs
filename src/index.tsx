@@ -9,7 +9,13 @@ import './assets/styles/global.scss';
 const container = document.getElementById('root') as Element;
 const root = createRoot(container);
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false
+    }
+  }
+});
 root.render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
