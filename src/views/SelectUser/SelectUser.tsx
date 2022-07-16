@@ -28,7 +28,7 @@ export const SelectUser = () => {
                 {...register('userName')}
                 required
               />
-              <Button type='submit'>Submit</Button>
+              <Button type='submit'>View Collection</Button>
             </>
           )}
         </Form>

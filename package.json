@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:ci": "npm run test -- --watchAll=false",
-    "coverage": "npm test -- --coverage",
+    "coverage": "npm test -- --watchAll=false --coverage",
     "lint": "eslint \"**/*.{ts,tsx,js}\"",
     "lint:fix": "eslint \"**/*.{ts,tsx,js}\" --fix",
     "lint-styles": "npx stylelint \"**/*.{css,scss}\"",
@@ -55,12 +55,6 @@
       "./src/**/*.ts",
       "./src/**/*.tsx",
       "!./src/**/*.stories.tsx"
-    ],
-    "coveragePathIgnorePatterns": [
-      "./src/stories/",
-      "./src/components/Examples/",
-      "./src/views/",
-      "./src/index.tsx"
     ]
   },
   "browserslist": {
