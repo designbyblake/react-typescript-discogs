@@ -5,14 +5,18 @@ describe('Heading', () => {
   it('can be customized using className', () => {
     const className = 'custom-class-name';
 
-    const { container } = render(
+    render(
       <Heading className={className} data-element='heading'>
         content
       </Heading>
     );
 
+    const heading = screen.getByRole('heading', { level: 2 });
+
+    // expects the title to be rendered as an h3
+    expect(heading).toBeInTheDocument();
     // has className
-    expect(container.firstChild).toHaveClass(className);
+    expect(heading).toHaveClass(className);
   });
 
   it('renders content', () => {
@@ -24,7 +28,7 @@ describe('Heading', () => {
   });
 
   it('renders the correct heading level', () => {
-    const { rerender } = render(
+    render(
       <Heading>You’ve got a new medication that needs to be verified.</Heading>
     );
 
@@ -33,7 +37,7 @@ describe('Heading', () => {
     // expects the title to be a heading and by default h2
     expect(heading).toBeInTheDocument();
 
-    rerender(
+    render(
       <Heading headingLevel='h3'>
         You’ve got a new medication that needs to be verified.
       </Heading>

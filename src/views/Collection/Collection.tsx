@@ -22,7 +22,7 @@ export const Collection = () => {
       `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/${pageParam}`
     );
     const json = await apiResponse.json();
-    console.log(json);
+    // console.log(json);
     const currentPage = json.pagination?.page;
     if (currentPage === 1) setCollectionSize(json.pagination?.items);
     const nextPage =
