@@ -1,19 +1,23 @@
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { BackgroundImage } from 'components/BackgroundImage';
 import { Listing } from 'views/Collection/components/Listing';
-import cn from 'classnames';
 import { useInfiniteQuery } from 'react-query';
-
-import { useEffect, useState } from 'react';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { ReleasesEntity } from 'types';
-
+import cn from 'classnames';
+import { Button } from 'components/Button';
+import { useSortCollection } from './hooks';
 import { CollectionHeader } from './components/CollectionHeader';
+
 import styles from './Collection.module.scss';
 
 export const Collection = () => {
+  const { sortCollection } = useSortCollection();
   const [collection, setCollection] = useState<ReleasesEntity[]>([]);
-  // const [isFullyLoaded, setIsFullyLoaded] = useState<boolean>(false);
+  const [displayCollection, setDisplayCollection] = useState<ReleasesEntity[]>(
+    []
+  );
   const [collectionSize, setCollectionSize] = useState<number>();
   const { userName } = useParams();
 
@@ -22,14 +26,12 @@ export const Collection = () => {
       `${process.env.REACT_APP_ENDPOINT}/collection/${userName}/${pageParam}`
     );
     const json = await apiResponse.json();
-    // console.log(json);
     const currentPage = json.pagination?.page;
     if (currentPage === 1) setCollectionSize(json.pagination?.items);
     const nextPage =
       currentPage !== json.pagination?.pages
         ? parseInt(currentPage, 10) + 1
         : false;
-    // setIsFullyLoaded(nextPage === false);
 
     return { response: json.releases, nextPage };
   };
@@ -45,6 +47,17 @@ export const Collection = () => {
     getNextPageParam: (lastPage) => lastPage.nextPage
   });
 
+  const doSortCollection = (type: 'date' | 'artist' | 'album') => {
+    const { sortedCollection, sortedCollectionDisplay } = sortCollection(
+      type,
+      collection,
+      displayCollection
+    );
+
+    setCollection(sortedCollection);
+    setDisplayCollection(sortedCollectionDisplay);
+  };
+
   useEffect(() => {
     if (hasNextPage && !isFetchingNextPage)
       setTimeout(() => {
@@ -59,24 +72,8 @@ export const Collection = () => {
       return false;
     });
     setCollection(records);
+    setDisplayCollection(records);
   }, [data]);
-  if (isLoading) {
-    return (
-      <div className={cn(styles.root, 'container')}>
-        <BackgroundImage />
-        <h1>Is loading</h1>
-      </div>
-    );
-  }
-
-  if (isError) {
-    return (
-      <div className={cn(styles.root, 'container')}>
-        <BackgroundImage />
-        <h1>Is Error</h1>
-      </div>
-    );
-  }
 
   return (
     <>
@@ -86,9 +83,18 @@ export const Collection = () => {
           userName={userName}
           collectionSize={collectionSize}
           collectionLength={collection.length}
+          isError={isError}
+          isLoading={isLoading}
         />
+        <Button onClick={() => doSortCollection('date')}>
+          Sort By Date Added
+        </Button>
+        <Button onClick={() => doSortCollection('artist')}>
+          Sort By Artist
+        </Button>
+        <Button onClick={() => doSortCollection('album')}>Sort By Album</Button>
         <ul data-element='collection'>
-          {collection?.map((record: ReleasesEntity) => (
+          {displayCollection?.map((record: ReleasesEntity) => (
             <li
               key={`${record.instance_id}-${record.date_added}`}
               style={{ maxWidth: '320px' }}
