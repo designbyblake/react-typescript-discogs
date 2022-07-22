@@ -16,9 +16,11 @@
 
     &:disabled {
       cursor: default;
+      opacity: 0.5;
     }
 
-    &:hover:not(.btn-grid-list--active) {
+    &:hover:not(.btn-grid-list--active):not(:disabled),
+    &[aria-pressed='true'] {
       background: var(--button-hover);
     }
 

@@ -1,51 +1,52 @@
 /* eslint-disable no-nested-ternary */
-import { ReleasesEntity } from 'types';
+import { IReleasesEntity, TSortCollection } from 'types';
 import sortBy from 'lodash/sortBy';
 
 export const useSortCollection = () => {
-  const sortCollection = (
-    type: 'date' | 'artist' | 'album',
-    collection: ReleasesEntity[],
-    collectionDisplay: ReleasesEntity[]
-  ) => {
+  const sortCollection = ({
+    collectionSortBy,
+    sortDirection,
+    collection,
+    displayCollection
+  }: TSortCollection) => {
     let sortedCollection = [...collection];
-    let sortedCollectionDisplay = [...collectionDisplay];
+    let sortedCollectionDisplay = [...displayCollection];
 
-    switch (type) {
+    switch (collectionSortBy) {
       case 'date': {
-        sortedCollection = sortBy(sortedCollection, (o: ReleasesEntity) => {
+        sortedCollection = sortBy(sortedCollection, (o: IReleasesEntity) => {
           return o?.date_added;
         }).reverse();
 
         sortedCollectionDisplay = sortBy(
           sortedCollectionDisplay,
-          (o: ReleasesEntity) => {
+          (o: IReleasesEntity) => {
             return o?.date_added;
           }
         ).reverse();
         break;
       }
       case 'album': {
-        sortedCollection = sortBy(sortedCollection, (o: ReleasesEntity) => {
+        sortedCollection = sortBy(sortedCollection, (o: IReleasesEntity) => {
           return o?.basic_information?.title;
         });
 
         sortedCollectionDisplay = sortBy(
           sortedCollectionDisplay,
-          (o: ReleasesEntity) => {
+          (o: IReleasesEntity) => {
             return o?.basic_information?.title;
           }
         );
         break;
       }
       case 'artist': {
-        sortedCollection = sortBy(sortedCollection, (o: ReleasesEntity) => {
+        sortedCollection = sortBy(sortedCollection, (o: IReleasesEntity) => {
           return o?.basic_information?.artists?.[0].name;
         });
 
         sortedCollectionDisplay = sortBy(
           sortedCollectionDisplay,
-          (o: ReleasesEntity) => {
+          (o: IReleasesEntity) => {
             return o?.basic_information?.artists?.[0].name;
           }
         );
@@ -54,6 +55,11 @@ export const useSortCollection = () => {
 
       default:
         break;
+    }
+
+    if (sortDirection === 'DESC') {
+      sortedCollection = sortedCollection.reverse();
+      sortedCollectionDisplay.reverse();
     }
 
     return { sortedCollection, sortedCollectionDisplay };

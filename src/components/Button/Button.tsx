@@ -9,6 +9,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       type = 'button',
       variant = 'button',
       className,
+      isDisabled,
       ...props
     }: ButtonProps,
     ref
@@ -20,6 +21,8 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         ref={ref}
         type={type}
         className={cn(styles.button, className)}
+        aria-disabled={isDisabled}
+        disabled={isDisabled}
         {...props}
       >
         {children}
@@ -35,5 +38,9 @@ export type ButtonProps = {
   className?: string;
   type?: 'button' | 'submit' | 'reset';
   variant?: 'button' | 'youtube' | 'title';
+  isDisabled?: boolean;
 } & AriaAttributes &
-  Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'className' | 'type'>;
+  Omit<
+    ButtonHTMLAttributes<HTMLButtonElement>,
+    'className' | 'type' | 'disabled'
+  >;

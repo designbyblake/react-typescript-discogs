@@ -1,31 +1,31 @@
-export interface DiscogsCollection {
-  pagination: Pagination;
-  releases?: ReleasesEntity[] | null;
+export interface IDiscogsCollection {
+  pagination: IPagination;
+  releases?: IReleasesEntity[] | null;
 }
-export interface Pagination {
+export interface IPagination {
   page: number;
   pages: number;
   per_page: number;
   items: number;
-  urls: PaginationUrls;
+  urls: IPaginationUrls;
 }
-export interface PaginationUrls {
+export interface IPaginationUrls {
   first?: string;
   last?: string;
   next?: string;
   prev?: string;
 }
-export interface ReleasesEntity {
+export interface IReleasesEntity {
   id: number;
   instance_id: number;
   date_added: string;
   rating: number;
-  basic_information: BasicInformation;
+  basic_information: IBasicInformation;
   folder_id?: number;
-  notes?: NotesEntity[] | null;
+  notes?: INotesEntity[] | null;
 }
 
-export interface BasicInformation {
+export interface IBasicInformation {
   id: number;
   master_id: number;
   master_url?: string | null;
@@ -34,19 +34,19 @@ export interface BasicInformation {
   cover_image: string;
   title: string;
   year: number;
-  formats?: FormatsEntity[] | null;
-  labels?: LabelsEntity[] | null;
-  artists?: ArtistsEntity[] | null;
+  formats?: IFormatsEntity[] | null;
+  labels?: ILabelsEntity[] | null;
+  artists?: IArtistsEntity[] | null;
   genres?: string[] | null;
   styles?: (string | null)[] | null;
 }
-export interface FormatsEntity {
+export interface IFormatsEntity {
   name: string;
   qty: string;
   text?: string | null;
   descriptions?: string[] | null;
 }
-export interface LabelsEntity {
+export interface ILabelsEntity {
   name: string;
   catno: string;
   entity_type: string;
@@ -54,7 +54,7 @@ export interface LabelsEntity {
   id: number;
   resource_url: string;
 }
-export interface ArtistsEntity {
+export interface IArtistsEntity {
   name: string;
   anv: string;
   join: string;
@@ -63,7 +63,7 @@ export interface ArtistsEntity {
   id: number;
   resource_url: string;
 }
-export interface NotesEntity {
+export interface INotesEntity {
   field_id: number;
   value: string;
 }

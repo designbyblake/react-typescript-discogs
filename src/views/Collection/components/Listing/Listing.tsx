@@ -2,7 +2,7 @@ import { ReactElement, AriaAttributes, HTMLAttributes } from 'react';
 import { AlbumCover } from 'views/Collection/components/AlbumCover';
 import { Heading, HeadingLevelProps } from 'components/Heading';
 import { Button } from 'components/Button';
-import { BasicInformation } from 'types';
+import { IBasicInformation } from 'types';
 import cn from 'classnames';
 import { artistName, getFormats } from './utils';
 import { ListingDetail } from './ListingDetail/ListingDetail';
@@ -33,7 +33,7 @@ export const Listing = ({
 };
 
 export type ListingProps = {
-  basicInformation: BasicInformation;
+  basicInformation: IBasicInformation;
   className?: string;
   children?: ReactElement | ReactElement[] | string;
 } & HeadingLevelProps &

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ReleasesEntity } from 'types';
+import { IReleasesEntity } from 'types';
 
 export type TApiResponse = {
   status: number;
@@ -7,11 +7,11 @@ export type TApiResponse = {
   data: any;
   error: any;
   loading: boolean;
-  collection: ReleasesEntity[];
+  collection: IReleasesEntity[];
 };
 
 export const useLoadCollection = (userName: string): TApiResponse => {
-  const [collection, setCollection] = useState<ReleasesEntity[]>([]);
+  const [collection, setCollection] = useState<IReleasesEntity[]>([]);
 
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [status, setStatus] = useState<number>(0);

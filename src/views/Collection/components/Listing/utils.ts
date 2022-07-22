@@ -1,6 +1,6 @@
-import { ArtistsEntity, FormatsEntity } from 'types';
+import { IArtistsEntity, IFormatsEntity } from 'types';
 
-export const artistName = (theArtists: ArtistsEntity[] | null | undefined) => {
+export const artistName = (theArtists: IArtistsEntity[] | null | undefined) => {
   if (theArtists && theArtists[0]) {
     return theArtists[0].name;
   }
@@ -8,7 +8,7 @@ export const artistName = (theArtists: ArtistsEntity[] | null | undefined) => {
 };
 
 export const getFormats = (
-  listingFormats: FormatsEntity[] | null | undefined
+  listingFormats: IFormatsEntity[] | null | undefined
 ) => {
   if (listingFormats && listingFormats[0]) {
     const format = listingFormats[0];
