@@ -43,15 +43,17 @@ export const CollectionSort = ({
           onClick={() => setSortDirection(CollectionDirection.DESC)}
           isDisabled={!isLoaded}
           aria-pressed={sortDirection === CollectionDirection.DESC}
+          aria-label='Sort collection in descending order'
         >
-          <Icon alt='Sort collection in descending order' type='arrow-down' />
+          <Icon type='arrow-down' />
         </Button>
         <Button
           onClick={() => setSortDirection(CollectionDirection.ASC)}
           isDisabled={!isLoaded}
           aria-pressed={sortDirection === CollectionDirection.ASC}
+          aria-label='Sort collection in ascending order'
         >
-          <Icon alt='Sort collection in acending order' type='arrow-up' />
+          <Icon type='arrow-up' />
         </Button>
       </fieldset>
     </div>
