@@ -16,18 +16,33 @@ describe('<CollectionHeader />', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  it('renders fully loaded correct', () => {
+  it('renders loading message', () => {
+    render(
+      <CollectionHeader
+        userName='designbyblake'
+        collectionSize={200}
+        collectionLength={200}
+        isLoading
+        isError={false}
+      />
+    );
+
+    const heading = screen.getByText(/designbyblake's Collection/i);
+    expect(heading).toBeInTheDocument();
+  });
+
+  it('renders error message', () => {
     render(
       <CollectionHeader
         userName='designbyblake'
         collectionSize={200}
         collectionLength={200}
         isLoading={false}
-        isError={false}
+        isError
       />
     );
 
-    const heading = screen.getByText(/Collection Size, 200/i);
+    const heading = screen.getByText(/Something has gone wrong/i);
     expect(heading).toBeInTheDocument();
   });
 });
