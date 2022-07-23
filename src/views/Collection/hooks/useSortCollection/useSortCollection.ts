@@ -1,5 +1,6 @@
 /* eslint-disable no-nested-ternary */
 import { IReleasesEntity, TSortCollection } from 'types';
+import { CollectionDirection, CollectionSortBy } from 'constants/collection';
 
 export const useSortCollection = () => {
   const sortByAlbum = (collection: IReleasesEntity[]) => {
@@ -51,17 +52,17 @@ export const useSortCollection = () => {
     let sortedCollectionDisplay = [...displayCollection];
 
     switch (collectionSortBy) {
-      case 'date': {
+      case CollectionSortBy.DATE: {
         sortedCollection = sortByDate(sortedCollection);
         sortedCollectionDisplay = sortByDate(sortedCollectionDisplay);
         break;
       }
-      case 'album': {
+      case CollectionSortBy.ALBUM: {
         sortedCollection = sortByAlbum(sortedCollection);
         sortedCollectionDisplay = sortByAlbum(sortedCollectionDisplay);
         break;
       }
-      case 'artist': {
+      case CollectionSortBy.ARTIST: {
         sortedCollection.sort((a, b) => sortByNameFilters(a, b));
         sortedCollectionDisplay.sort((a, b) => sortByNameFilters(a, b));
         break;
@@ -71,7 +72,7 @@ export const useSortCollection = () => {
         break;
     }
 
-    if (sortDirection === 'DESC') {
+    if (sortDirection === CollectionDirection.ASC) {
       sortedCollection = sortedCollection.reverse();
       sortedCollectionDisplay.reverse();
     }

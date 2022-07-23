@@ -14,7 +14,7 @@ import {
   CollectionSort,
   Listing
 } from 'views/Collection/components/';
-
+import { CollectionDirection, CollectionSortBy } from 'constants/collection';
 import { useSortCollection } from './hooks';
 
 import styles from './Collection.module.scss';
@@ -27,10 +27,12 @@ export const Collection = () => {
     []
   );
 
-  const [collectionSortBy, setCollectionSortBy] =
-    useState<TCollectionSortBy['collectionSortBy']>('artist');
-  const [sortDirection, setSortDirection] =
-    useState<TCollectionSortDirection['sortDirection']>('ASC');
+  const [collectionSortBy, setCollectionSortBy] = useState<
+    TCollectionSortBy['collectionSortBy']
+  >(CollectionSortBy.ARTIST);
+  const [sortDirection, setSortDirection] = useState<
+    TCollectionSortDirection['sortDirection']
+  >(CollectionDirection.ASC);
   const [collectionSize, setCollectionSize] = useState<number>();
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
   const { userName } = useParams();
