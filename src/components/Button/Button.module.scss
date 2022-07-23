@@ -13,15 +13,25 @@
     padding: 0 10px;
     position: relative;
     transition: background-color 0.25s ease;
+    min-width: 48px;
 
     &:disabled {
       cursor: default;
       opacity: 0.5;
     }
 
-    &:hover:not(.btn-grid-list--active):not(:disabled),
-    &[aria-pressed='true'] {
+    &:hover:not(.btn-grid-list--active):not(:disabled) {
       background: var(--button-hover);
+      color: var(--color-white);
+      --icon-fill: var(--color-white);
+      --icon-stroke: var(--color-white);
+    }
+
+    &[aria-pressed='true'] {
+      background: var(--color-white);
+      color: var(--button-hover);
+      --icon-fill: var(--button-hover);
+      --icon-stroke: var(--button-hover);
     }
 
     svg {

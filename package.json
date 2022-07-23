@@ -8,7 +8,6 @@
   },
   "engineStrict": true,
   "dependencies": {
-    "@types/lodash": "^4.14.182",
     "axios": "^0.27.2",
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
@@ -85,8 +84,9 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
+    "@types/lodash": "^4.14.182",
     "@types/node": "^16.11.21",
-    "@types/react": "^17.0.38",
+    "@types/react": "^18.0.15",
     "@types/react-dom": "^17.0.11",
     "@types/react-lazy-load-image-component": "^1.5.2",
     "@types/react-modal": "^3.13.1",

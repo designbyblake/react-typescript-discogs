@@ -21,6 +21,7 @@ import styles from './Collection.module.scss';
 
 export const Collection = () => {
   const { sortCollection } = useSortCollection();
+  const [isSorting, setIsSorting] = useState<boolean>(false);
   const [collection, setCollection] = useState<IReleasesEntity[]>([]);
   const [displayCollection, setDisplayCollection] = useState<IReleasesEntity[]>(
     []
@@ -78,15 +79,19 @@ export const Collection = () => {
   }, [data]);
 
   useEffect(() => {
-    const { sortedCollection, sortedCollectionDisplay } = sortCollection({
-      collectionSortBy,
-      sortDirection,
-      collection,
-      displayCollection
-    });
+    setIsSorting(true);
+    setTimeout(() => {
+      const { sortedCollection, sortedCollectionDisplay } = sortCollection({
+        collectionSortBy,
+        sortDirection,
+        collection,
+        displayCollection
+      });
 
-    setCollection(sortedCollection);
-    setDisplayCollection(sortedCollectionDisplay);
+      setCollection(sortedCollection);
+      setDisplayCollection(sortedCollectionDisplay);
+      setIsSorting(false);
+    }, 250);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [collectionSortBy, sortDirection]);
 
@@ -113,7 +118,7 @@ export const Collection = () => {
           collectionSortBy={collectionSortBy}
         />
 
-        <ul data-element='collection'>
+        <ul data-element='collection' data-is-sorting={isSorting}>
           {displayCollection?.map((record: IReleasesEntity) => (
             <li
               key={`${record.instance_id}-${record.date_added}`}

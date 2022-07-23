@@ -9,4 +9,11 @@
     margin: 0;
     padding: 0;
   }
+
+  [data-is-sorting] {
+    transition: all 0.25s ease-in-out;
+  }
+  [data-is-sorting='true'] {
+    opacity: 0.8;
+  }
 }

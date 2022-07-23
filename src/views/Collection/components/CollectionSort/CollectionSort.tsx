@@ -1,4 +1,4 @@
-import { Button } from 'components/Button';
+import { Button, Icon } from 'components';
 import { TCollectionSortBy, TCollectionSortDirection } from 'types';
 import styles from './CollectionSort.module.scss';
 
@@ -11,41 +11,48 @@ export const CollectionSort = ({
 }: TCollectionSort) => {
   return (
     <div className={styles.root}>
-      <Button
-        onClick={() => setCollectionSortBy('artist')}
-        isDisabled={!isLoaded}
-        aria-pressed={collectionSortBy === 'artist'}
-      >
-        Sort By Artist
-      </Button>
-      <Button
-        onClick={() => setCollectionSortBy('date')}
-        isDisabled={!isLoaded}
-        aria-pressed={collectionSortBy === 'date'}
-      >
-        Sort By Date Added
-      </Button>
-      <Button
-        onClick={() => setCollectionSortBy('album')}
-        isDisabled={!isLoaded}
-        aria-pressed={collectionSortBy === 'album'}
-      >
-        Sort By Album
-      </Button>
-      <Button
-        onClick={() => setSortDirection('ASC')}
-        isDisabled={!isLoaded}
-        aria-pressed={sortDirection === 'ASC'}
-      >
-        Up
-      </Button>
-      <Button
-        onClick={() => setSortDirection('DESC')}
-        isDisabled={!isLoaded}
-        aria-pressed={sortDirection === 'DESC'}
-      >
-        Down
-      </Button>
+      <fieldset aria-label='Sort Collection By:'>
+        <Button
+          onClick={() => setCollectionSortBy('artist')}
+          isDisabled={!isLoaded}
+          aria-pressed={collectionSortBy === 'artist'}
+          aria-label='Sort by Artist'
+        >
+          Artist
+        </Button>
+        <Button
+          onClick={() => setCollectionSortBy('date')}
+          isDisabled={!isLoaded}
+          aria-pressed={collectionSortBy === 'date'}
+          aria-label='Sort by Date Added'
+        >
+          Date Added
+        </Button>
+        <Button
+          onClick={() => setCollectionSortBy('album')}
+          isDisabled={!isLoaded}
+          aria-pressed={collectionSortBy === 'album'}
+          aria-label='Sort by Album Title'
+        >
+          Album Title
+        </Button>
+      </fieldset>
+      <fieldset aria-label='Sort Order'>
+        <Button
+          onClick={() => setSortDirection('DESC')}
+          isDisabled={!isLoaded}
+          aria-pressed={sortDirection === 'DESC'}
+        >
+          <Icon alt='Sort collection in descending order' type='arrow-down' />
+        </Button>
+        <Button
+          onClick={() => setSortDirection('ASC')}
+          isDisabled={!isLoaded}
+          aria-pressed={sortDirection === 'ASC'}
+        >
+          <Icon alt='Sort collection in acending order' type='arrow-up' />
+        </Button>
+      </fieldset>
     </div>
   );
 };
